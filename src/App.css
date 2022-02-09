@@ -32,6 +32,8 @@ body {
 .intro {
   text-align: center;
   color: #293264;
+  width: min(90%, 55em);
+  margin-inline: auto;
   padding-inline: 1rem;
 }
 
@@ -54,4 +56,9 @@ body {
   background-color: #4d5b9e;
   border: none;
   border-radius: 1rem;
+}
+
+.intro--btn:hover,
+.intro--btn:active {
+  background-color: hsl(230, 34%, 56%);
 }

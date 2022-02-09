@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function Questions() {
-  return <h3>Questions page</h3>;
+export default function Questions(props) {
+  return <div className="questions">{}</div>;
 }

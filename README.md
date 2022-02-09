@@ -6,12 +6,12 @@
 
 > Introduction Page
 
-<img src="https://github.com/daydy225/Quizzical-App/blob/master/intro-page.png" width="350" height="350">
+<img src="https://github.com/daydy225/Quizzical-App/blob/master/intro-page.png" width="400" height="400">
 
 > Questions Page
 
-<img src="https://github.com/daydy225/Quizzical-App/blob/master/questions.png" width="350" height="350">
+<img src="https://github.com/daydy225/Quizzical-App/blob/master/questions.png" width="400" height="400">
 
 > Answers Page
 
-<img src="https://github.com/daydy225/Quizzical-App/blob/master/answers.png" width="350" height="350">
+<img src="https://github.com/daydy225/Quizzical-App/blob/master/answers.png" width="400" height="400">

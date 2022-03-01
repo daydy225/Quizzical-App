@@ -1,18 +1,19 @@
+import { decode } from "html-entities";
 import React from "react";
 
 export default function Questions(props) {
+  const answers = props.answers.map(item => {
+    return (
+      <p className="answers" key={item.id}>
+        {item.answer}
+      </p>
+    );
+  });
+
   return (
     <div className="questions">
-      <h1 className="questions--title">
-        "Which company was established on April 1st, 1976 by Steve Jobs, Steve
-        Wozniak and Ronald Wayne?",
-      </h1>
-      <div className="answers--list">
-        <p className="answers">Microsoft</p>
-        <p className="answers">Microsoft</p>
-        <p className="answers">Microsoft</p>
-        <p className="answers">Microsoft</p>
-      </div>
+      <h1 className="questions--title">{decode(props.question)}</h1>
+      <div className="answers--list">{answers}</div>
     </div>
   );
 }

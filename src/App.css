@@ -64,7 +64,7 @@ body {
 }
 
 .questions {
-  width: min(90%, 50em);
+  width: min(90%, 55em);
   margin-inline: auto;
   /* padding-inline: 1rem; */
 }
@@ -75,6 +75,7 @@ body {
 
 .questions--title {
   font-size: clamp(0.5em, 3vw, 1.4em);
+  text-align: center;
   color: #293264;
   font-weight: 700;
 }

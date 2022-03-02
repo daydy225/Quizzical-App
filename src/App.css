@@ -97,7 +97,7 @@ body {
   border: 0.794239px solid #4d5b9e;
   color: #293264;
   background-color: transparent;
-  font-size: clamp(0.3em, 1.5vw, 0.9em);
+  font-size: clamp(0.5em, 1.5vw, 0.9em);
   font-weight: 500;
   padding: 0.5em min(50%, 1.1em);
   cursor: pointer;

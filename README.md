@@ -2,6 +2,14 @@
 
 > This is a Quizzical app made with React JS using Open Trivia [API](https://opentdb.com/api_config.php)
 
+# Here you can install all packages
+
+`npm install`
+
+# Or
+
+`npm i`
+
 # Quizzical App Images
 
 > Introduction Page
